@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timer</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../js/controller.js"></script>
+    <script src="../js/model.js"></script>
+    <script src="../js/view.js"></script>
+</head>
+<body onload="timer()">
+    <div class="container-fluid">
+        <div class="bg-image">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+                <div class="container">
+                    <a href="lab.html" class="navbar-brand"><img src="../images/icon.png" class="logo">  Boutime</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="../html/index.html" class="nav-link">Timer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../html/profile.html" class="nav-link">My profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../html/about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../html/login.html" class="nav-link">Log in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../html/sign.html" class="nav-link">Sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                <div class="col-md-8" style="margin-top: 30px; display: flex; justify-content: center;"></div>
+                
+                <div class="container" style="padding: 1rem; max-width: 300px; text-align: center; position: relative; border-radius: 10px; background-color: rgba(0, 0, 0, 0.55);">
+                    <h1 style="color: white; margin: 0;">Boutime!</h1>
+                    <p class="time" style="color: white; margin: 0;">
+                      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span>
+                    </p>
+                    <button id="start" class="btn btn-dark">Start</button>
+                    <button id="stop" class="btn btn-dark">Pause</button>
+                    <button id="reset" class="btn btn-dark">Reset</button>
+                  </div>
+                  <div class="row justify-content-center">
+                  <div class="col-md-8" style="margin-top: 350px; display: flex; justify-content: center;"></div>
+                  <div class="col-md-8" style="height: 100px; text-align: center;">
+                    <div class="footer-container">
+                        <p class="text-white mb-0">Support us - boutimeapp@gmail.com</p>
+                        <p class="text-white mb-0">Boutime - 2023</p>
+                        <p class="text-white mb-0">© All rights reserved</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

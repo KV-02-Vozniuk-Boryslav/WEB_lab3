@@ -1,0 +1,53 @@
+.nav-link{
+    font-size: 1.1em;
+}
+
+.navbar li{
+    margin-right: 15px;
+}
+
+.navbar li :hover{
+    transition: 0.4s linear;
+    background: linear-gradient(rgb(83, 83, 83), rgb(15, 15, 15));
+}
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.bg-image{
+    background-image: url('../images/background-image.jpg');
+}
+
+.logo{
+    height: 28px;
+}
+
+.forma{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 350px;
+    border-radius: 25px;
+    background-color: rgb(19, 19, 19, 0.55);
+}
+
+.rozdil{
+    width: 85%;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.quiz p{
+    font-weight: bold;
+}
